@@ -4,7 +4,7 @@ reversdsentence = []
 sentence.split.each do |word|
   reversdsentence << word.reverse
 end
-reversdsentence
+reversdsentence.join(" ")
 
 
 
